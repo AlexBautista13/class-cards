@@ -1,0 +1,10 @@
+/*Hero section styles*/
+.hero-section{
+    background-image: url(../styles/bottegalogo.jpg);
+    padding: 100px;
+    height:1600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

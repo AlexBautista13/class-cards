@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/hero-section.css">
+
+<style>
+
+.button {
+ background-color: #4CAF50;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Palatino;
+ padding: 10px;
+ background: #f1f1f1;
+}
+
+.header {
+ padding: 30px;
+ text-align: center;
+ background: white;
+}
+
+.header h1 {
+ font-size: 50px;
+}
+
+.topnav {
+ overflow: hidden;
+ background-color: #333;
+}
+
+.topnav a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+.leftcolumn {
+ float: left;
+ width: 25%;
+ background-color: #f1f1f1;
+ padding-left: 20px;
+}
+
+.centerimg {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #f1f1f1;
+  padding: 10px;
+  background-color: #aaa;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 80%
+}
+
+.rightcolumn {
+ float: right;
+ width: 25%;
+ background-color: #f1f1f1;
+ padding-left: 20px;
+}
+
+.fakeimg {
+ background-color: #aaa;
+ width: 100%;
+ height: 100%;
+ padding: 20px;
+ border-radius: 80%
+}
+
+.card {
+ background-color: white;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+@media screen and (max-width: 800px) {
+ .leftcolumn, .rightcolumn {
+   width: 100%;
+   padding: 0;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .topnav a {
+   float: none;
+   width: 100%;
+ }
+}
+</style>
+</head>
+<body>
+ 
+
+<div class="header">
+    <img src="styles/class-logo.jpg" alt="Trulli" width="400" height="100">
+</div>
+
+<div class="topnav">
+ <a href="#">Home</a>
+ <a href="#">Profile</a>
+ <a href="#">Users</a>
+ <a href="#" style="float:right">Username: [_______]</a>
+</div>
+
+
+<div class="hero-section">
+  <div class="row">
+    
+    
+        
+      <div class="leftcolumn">
+          
+        <div class="card">
+        <img src="https://i.ibb.co/WgKHp5M/Shakeria.jpg" alt="Shakeria" style="width:100%">
+        
+        <h1>Shakeria</h1>
+        <p class="title">Our coding sweetheart from Seattle!</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+      </div>
+
+        <div class="card">
+        <img src="https://i.ibb.co/kHFD0sk/Conner.jpg" alt="Conner" style="width:100%">
+        
+        <h1>Conner</h1>
+        <p class="title">Recent high school grad, about to graduate again onto bigger, badder things!</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+      </div>
+
+        <div class="card">
+        <img src="https://i.ibb.co/340QTqY/Alex.jpg" alt="Alex" style="width:100%">
+        
+        <h1>Alex</h1>
+        <p class="title">Lakers Fan who followed The Games of Thrones!</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+
+      </div>
+
+
+      
+
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+        <img src="https://i.ibb.co/sq76SQg/Brandon.jpg" alt="Brandon" style="width:100%">
+        
+        <h1>Brandon</h1>
+        <p class="title">Eat. Work. Sleep. Code. Eat. Sleep. Repeat.</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+      </div>
+
+        <div class="card">
+        <img src="https://i.ibb.co/JvJGZNV/Benjamin.jpg" alt="Benjamin"  style="width:100%">
+        
+        <h1>Benjamin</h1>
+        <p class="title">Riding a pink limo at his Wedding!</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+      </div>
+
+        <div class="card">
+        <img src="https://i.ibb.co/bdds6Xq/Lindsey.jpg" alt="Lindsey" style="width:100%">
+        
+        <h1>Lindsey</h1>
+        <p class="title">Pregnant coding Mama.</p>
+          <div style="margin: 24px 0;">
+        </div>
+        <button type="button" onclick="alert('New User has been Added')">Add User</button>
+      </div>
+
+        </div>
+    </div>
+</div>
+   <footer class="site-footer">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-12 col-md-6">
+           <p class="text-justify">User page <i> Bottega Group Project. </i> We will help programmers build up concepts in different programming languages that include HTML, CSS, Bootstrap, JavaScript, Python, SQ.</cetner> </p> 
+         </div>
+
+       </div>
+       <hr>
+     </div>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-8 col-sm-6 col-xs-12">
+           <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+             <a href="#">Bottega</a>
+           </p>
+         </div>
+
+         <div class="col-md-4 col-sm-6 col-xs-12">
+           <ul class="social-icons">
+             <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+             <li><a class="twitter" href="#"><i class="fab fa-twitter-square"></i></i></a></li>
+             <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+</footer>
+</body>
+
+
+</html>
